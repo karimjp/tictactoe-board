@@ -1,0 +1,13 @@
+digraph "/Users/karim/Documents" {
+  compound=true
+  node [ fontsize="10", fontname="Helvetica"];
+  edge [ labelfontsize="10", labelfontname="Helvetica"];
+  subgraph clusterdir_540bcfabc5134b7f01cc447e503a3295 {
+    graph [ bgcolor="#ddddee", pencolor="black", label="karim" fontname="Helvetica", fontsize="10", URL="dir_540bcfabc5134b7f01cc447e503a3295.html"]
+  subgraph clusterdir_8b13d2850cf543ab9a275d3a4cc0fd9b {
+    graph [ bgcolor="#eeeeff", pencolor="black", label="" URL="dir_8b13d2850cf543ab9a275d3a4cc0fd9b.html"];
+    dir_8b13d2850cf543ab9a275d3a4cc0fd9b [shape=plaintext label="Documents"];
+    dir_68943ed6397d5ce8ef790b12e1f08109 [shape=box label="classCplusplus" color="red" fillcolor="white" style="filled" URL="dir_68943ed6397d5ce8ef790b12e1f08109.html"];
+  }
+  }
+}

@@ -1,0 +1,34 @@
+\hypertarget{_automated_user_8h}{}\section{/\+Users/karim/\+Documents/class\+Cplusplus/workspace/\+Tic\+Tac\+Toe\+Board/src/\+Automated\+User.h File Reference}
+\label{_automated_user_8h}\index{/\+Users/karim/\+Documents/class\+Cplusplus/workspace/\+Tic\+Tac\+Toe\+Board/src/\+Automated\+User.\+h@{/\+Users/karim/\+Documents/class\+Cplusplus/workspace/\+Tic\+Tac\+Toe\+Board/src/\+Automated\+User.\+h}}
+
+
+This is my \hyperlink{class_automated_user}{Automated\+User} definition file.  
+
+
+{\ttfamily \#include $<$iostream$>$}\\*
+{\ttfamily \#include $<$array$>$}\\*
+{\ttfamily \#include $<$vector$>$}\\*
+Include dependency graph for Automated\+User.\+h\+:
+% FIG 0
+This graph shows which files directly or indirectly include this file\+:
+% FIG 1
+\subsection*{Classes}
+\begin{DoxyCompactItemize}
+\item 
+class \hyperlink{class_automated_user}{Automated\+User}
+\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+This is my \hyperlink{class_automated_user}{Automated\+User} definition file. 
+
+\begin{DoxyAuthor}{Author}
+Karim Jana \href{mailto:karimjana@gmail.com}{\tt karimjana@gmail.\+com} 
+\end{DoxyAuthor}
+\begin{DoxyDate}{Date}
+June, 2015. 
+\end{DoxyDate}
+\begin{DoxyVersion}{Version}
+1.\+0
+\end{DoxyVersion}
+Proffesor Doug Ferguson -\/ C++ class 

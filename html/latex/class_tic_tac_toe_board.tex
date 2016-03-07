@@ -1,0 +1,83 @@
+\hypertarget{class_tic_tac_toe_board}{}\section{Tic\+Tac\+Toe\+Board Class Reference}
+\label{class_tic_tac_toe_board}\index{Tic\+Tac\+Toe\+Board@{Tic\+Tac\+Toe\+Board}}
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\hyperlink{class_tic_tac_toe_board_adff1ee9118b05338cba02ba1f0352236}{Tic\+Tac\+Toe\+Board} ()
+\item 
+void \hyperlink{class_tic_tac_toe_board_a9afaf647f860c89bc703c194a754eac5}{set\+Board\+Value} (int row, int column, int value)
+\item 
+\hypertarget{class_tic_tac_toe_board_a3dbac79162452821fc8182dd15080591}{}std\+::array$<$ std\+::array$<$ int, 3 $>$, 3 $>$ {\bfseries get\+Board} ()\label{class_tic_tac_toe_board_a3dbac79162452821fc8182dd15080591}
+
+\item 
+std\+::vector$<$ std\+::string $>$ \hyperlink{class_tic_tac_toe_board_a44b69d2be6ef2273d20f28e0e91af780}{get\+Board\+Plays} ()
+\item 
+\hypertarget{class_tic_tac_toe_board_a63261fd1737aa98e0682d6a1e6bfb1b5}{}char {\bfseries get\+User\+Move\+Icon} ()\label{class_tic_tac_toe_board_a63261fd1737aa98e0682d6a1e6bfb1b5}
+
+\item 
+\hypertarget{class_tic_tac_toe_board_ae8df5ec612ffa13f37413b4aefd16b2c}{}char {\bfseries get\+Automated\+Player\+Move\+Icon} ()\label{class_tic_tac_toe_board_ae8df5ec612ffa13f37413b4aefd16b2c}
+
+\item 
+void \hyperlink{class_tic_tac_toe_board_a8ce4bbc6e69d2e2cba3706f51d3f12ee}{draw\+Board} ()
+\item 
+bool \hyperlink{class_tic_tac_toe_board_a7543dd21d5f1743eced242fbd109fae1}{is\+Game\+Over} ()
+\end{DoxyCompactItemize}
+
+
+\subsection{Constructor \& Destructor Documentation}
+\hypertarget{class_tic_tac_toe_board_adff1ee9118b05338cba02ba1f0352236}{}\index{Tic\+Tac\+Toe\+Board@{Tic\+Tac\+Toe\+Board}!Tic\+Tac\+Toe\+Board@{Tic\+Tac\+Toe\+Board}}
+\index{Tic\+Tac\+Toe\+Board@{Tic\+Tac\+Toe\+Board}!Tic\+Tac\+Toe\+Board@{Tic\+Tac\+Toe\+Board}}
+\subsubsection[{Tic\+Tac\+Toe\+Board}]{\setlength{\rightskip}{0pt plus 5cm}Tic\+Tac\+Toe\+Board\+::\+Tic\+Tac\+Toe\+Board (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}\label{class_tic_tac_toe_board_adff1ee9118b05338cba02ba1f0352236}
+Constructor that initializes all the tic tac toe board spaces to 0 
+
+\subsection{Member Function Documentation}
+\hypertarget{class_tic_tac_toe_board_a8ce4bbc6e69d2e2cba3706f51d3f12ee}{}\index{Tic\+Tac\+Toe\+Board@{Tic\+Tac\+Toe\+Board}!draw\+Board@{draw\+Board}}
+\index{draw\+Board@{draw\+Board}!Tic\+Tac\+Toe\+Board@{Tic\+Tac\+Toe\+Board}}
+\subsubsection[{draw\+Board}]{\setlength{\rightskip}{0pt plus 5cm}void Tic\+Tac\+Toe\+Board\+::draw\+Board (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}\label{class_tic_tac_toe_board_a8ce4bbc6e69d2e2cba3706f51d3f12ee}
+Draws board with \textquotesingle{}X\textquotesingle{} and \textquotesingle{}O\textquotesingle{} based on the user\textquotesingle{}s values in the table. \hypertarget{class_tic_tac_toe_board_a44b69d2be6ef2273d20f28e0e91af780}{}\index{Tic\+Tac\+Toe\+Board@{Tic\+Tac\+Toe\+Board}!get\+Board\+Plays@{get\+Board\+Plays}}
+\index{get\+Board\+Plays@{get\+Board\+Plays}!Tic\+Tac\+Toe\+Board@{Tic\+Tac\+Toe\+Board}}
+\subsubsection[{get\+Board\+Plays}]{\setlength{\rightskip}{0pt plus 5cm}std\+::vector$<$ std\+::string $>$ Tic\+Tac\+Toe\+Board\+::get\+Board\+Plays (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}\label{class_tic_tac_toe_board_a44b69d2be6ef2273d20f28e0e91af780}
+Generates a list of all possible plays in the board.
+
+\begin{DoxyReturn}{Returns}
+possible\+Plays 
+\end{DoxyReturn}
+\hypertarget{class_tic_tac_toe_board_a7543dd21d5f1743eced242fbd109fae1}{}\index{Tic\+Tac\+Toe\+Board@{Tic\+Tac\+Toe\+Board}!is\+Game\+Over@{is\+Game\+Over}}
+\index{is\+Game\+Over@{is\+Game\+Over}!Tic\+Tac\+Toe\+Board@{Tic\+Tac\+Toe\+Board}}
+\subsubsection[{is\+Game\+Over}]{\setlength{\rightskip}{0pt plus 5cm}bool Tic\+Tac\+Toe\+Board\+::is\+Game\+Over (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}\label{class_tic_tac_toe_board_a7543dd21d5f1743eced242fbd109fae1}
+Determines if human user or automated user is a winner and how it won.
+
+\begin{DoxyReturn}{Returns}
+boolean -\/ true = game over, false = game not over 
+\end{DoxyReturn}
+\hypertarget{class_tic_tac_toe_board_a9afaf647f860c89bc703c194a754eac5}{}\index{Tic\+Tac\+Toe\+Board@{Tic\+Tac\+Toe\+Board}!set\+Board\+Value@{set\+Board\+Value}}
+\index{set\+Board\+Value@{set\+Board\+Value}!Tic\+Tac\+Toe\+Board@{Tic\+Tac\+Toe\+Board}}
+\subsubsection[{set\+Board\+Value}]{\setlength{\rightskip}{0pt plus 5cm}void Tic\+Tac\+Toe\+Board\+::set\+Board\+Value (
+\begin{DoxyParamCaption}
+\item[{int}]{row, }
+\item[{int}]{column, }
+\item[{int}]{value}
+\end{DoxyParamCaption}
+)}\label{class_tic_tac_toe_board_a9afaf647f860c89bc703c194a754eac5}
+Allows access to tic tac toe board array to modify values 
+
+The documentation for this class was generated from the following files\+:\begin{DoxyCompactItemize}
+\item 
+/\+Users/karim/\+Documents/class\+Cplusplus/workspace/\+Tic\+Tac\+Toe\+Board/src/\hyperlink{_tic_tac_toe_board_8h}{Tic\+Tac\+Toe\+Board.\+h}\item 
+/\+Users/karim/\+Documents/class\+Cplusplus/workspace/\+Tic\+Tac\+Toe\+Board/src/\hyperlink{_tic_tac_toe_board_8cpp}{Tic\+Tac\+Toe\+Board.\+cpp}\end{DoxyCompactItemize}
